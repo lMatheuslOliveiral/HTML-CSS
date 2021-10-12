@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: 'idroid';
+    src: url(fonts/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+
+.site{
+    font-weight: bold;
+    color: #1A5C38;
+
+    text-decoration: none;
+}
+
+
+header{
+    background-image: linear-gradient(to top, #1A5C38, #3BD580 );
+}
+
+header > nav{
+    background-color: #1B6139;
+}
+
+h1#title{
+    font-family: 'idroid', sans-serif;
+    color: white;
+    text-align: center
+}
+
+header > p{
+    text-align: center;
+    color: white;
+}
+
+header > nav > a{
+    margin-left: 20px;
+    color: white;
+
+    text-decoration: none;
+}
+
+header > nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+
+    margin: 0px 150px;
+
+    padding: 20px;
+}
+
+main > section > h2{
+    font-family: 'idroid', sans-serif;
+    text-align: center;
+    color: #266443
+}
+
+main > article > h3{
+    font-family: 'Bebas Neue', sans-serif;
+
+    font-size: 1.9em;
+
+    background-image: linear-gradient(to right, #C5EBD6 , #c5ebd600);
+    color: #266443;
+    
+    padding: 5px;
+}
+
+main > article > p{
+    text-align: center;
+    text-align: justify;
+    text-indent: 20px
+}
+
+span.marcado{
+    color: #266443;
+    font-weight: bold;
+}
+
+main > aside > .firstversion{
+    margin: auto;
+}
+
+main > aside#irina > picture{
+    margin: auto;
+}
+
+aside#android{
+    text-align: center;
+}
+
+aside#irina{
+    text-align: center;
+}
+
+aside#bugdroid{
+    text-align: center;
+}
+
+aside#video{
+    text-align: center;
+    background-color: #1A5C38;
+}
+
+iframe{
+    padding: 20px;
+}
+
+
+article#final{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+
+    padding: 0px 0px 5px 0px;
+
+}
+
+article#final > p#finaltitle{
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+}
+
+ul{
+    column-count: 2;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    background-color: #1A5C38;
+    text-align: center;
+    padding: 5px;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: white;
+
+}
