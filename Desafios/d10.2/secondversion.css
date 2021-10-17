@@ -2,7 +2,6 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,7 +31,7 @@ header > .containermain > .polaroidmain > p{
     margin: auto;
     text-align: center;
     padding: 15px;
-    margin-top: 45px;
+    margin-top: 30px;
     min-width: 300px;
     max-width: 700px;
     color: white;
@@ -49,9 +48,27 @@ header > .containermain > nav > a{
     text-decoration: none;
     
     background-color: #272822;
-
     border: 1px solid #50504e;
     
-    padding: 12px;
+    padding: 15px;
+}
 
+header > .containermain > nav > a:hover{ 
+    background-color: #eeeeee;
+    color: #272822;
+}
+
+main > div > h2{
+    margin-top: 155px;
+    text-align: center;
+}
+
+main > div > p{
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+    min-width: 300px;
+    max-width: 700px;
+    columns: 2;
 }
