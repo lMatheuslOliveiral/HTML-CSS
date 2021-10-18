@@ -62,7 +62,7 @@ header > .containermain > nav > a:hover{
     color: #272822;
 }
 
-main > .inicial{
+main > .text{
     background-color: white;
     padding: 1px 0px 20px 0px;
 }
@@ -108,4 +108,23 @@ main > div > p{
 
 .caption{
     text-align: center;
+}
+
+/*-----------------------------------------------------*/
+
+.second{
+    background-color: white;
+    text-align: center;
+}
+
+.second > h2{
+    padding-top: 30px;
+}
+
+.second > p{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 700px;
 }
