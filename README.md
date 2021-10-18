@@ -8,3 +8,5 @@ Aprendi a gerenciar os meus repositórios, e agora estou praticando, criando mai
 Estou com dificuldades de usar a Grid no css, pois está dando alguns erros, e não ta ficando do jeito que eu quero, estou pensando em recomeçar esse meu projeto.
 
 Como deu errado o que eu queria fazer, hoje decidi criar um novo arquivo para praticar mais e entender sobre esse sistema de Grid no CSS. 
+
+Estou tentando colocar as imagens no meu site, tinha dado errado antes, então estou refazendo passo a passo me baseando no video.
