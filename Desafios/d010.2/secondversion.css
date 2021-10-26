@@ -90,7 +90,7 @@ main > div > p{
     margin: auto;
     max-width: 980px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     grid-gap: 20px;
     justify-content: center;
     padding: 20px;
@@ -183,12 +183,17 @@ main > div > p{
     font-weight: bold;
 }
 
-/*@media (min-width: 675px) and (max-width: 995px){
+@media (max-width: 755px){
     .container{
-        width: 100px;
-        
-
-       
-}
-    
+       margin: auto;
+       display: inline-block;
+       width: 100%;
+       padding: 20px;   
+    }
+    .photo{
+        height: 250px;
+    }
+    .polaroid{
+        margin: 20px 0px 20px 0px;
+    }
 }
