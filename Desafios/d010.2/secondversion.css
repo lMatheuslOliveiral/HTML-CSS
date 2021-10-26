@@ -179,7 +179,7 @@ main > div > p{
 
 .grid > div > a{
     text-decoration: none;
-    color: white;
+    color: #2690D4;
     font-weight: bold;
 }
 
@@ -196,4 +196,21 @@ main > div > p{
     .polaroid{
         margin: 20px 0px 20px 0px;
     }
+    .containertwo{
+        margin: auto;
+        display: inline-block;
+        width: 100%;
+    }
+    .grid{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
 }
+
+    @media (max-width: 515px){
+        .text{
+            margin-top: -40px;
+        }
+    }
+
