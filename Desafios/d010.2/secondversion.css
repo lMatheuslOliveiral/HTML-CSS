@@ -182,3 +182,13 @@ main > div > p{
     color: white;
     font-weight: bold;
 }
+
+/*@media (min-width: 675px) and (max-width: 995px){
+    .container{
+        width: 100px;
+        
+
+       
+}
+    
+}
